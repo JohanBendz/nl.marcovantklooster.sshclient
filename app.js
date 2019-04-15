@@ -1,12 +1,9 @@
-'use strict';
+"use strict";
 
-const Homey = require('homey');
+function init() {
 
-class sshClient extends Homey.App {
-	
-	onInit() {
-		this.log("SSH Client is running");
-	}
+	Homey.log("SSH Client - init start");
+
 }
 
-module.exports = sshClient;
+module.exports.init = init;
