@@ -4,18 +4,23 @@
         "en": "SSH Client",
         "nl": "SSH Client"
     },
-    "version": "0.1.4",
-    "compatibility": "0.x || 1.x",
+    "version": "0.2.0",
+    "compatibility": ">=1.5.13",
     "author": {
 		"name": "Kerk en IT",
 		"email": "info@kerkenit.nl",
 		"website": "https://www.kerkenit.nl"
 	},
 	"contributors": {
-		"developers": [{
+		"developers": [
+			{
 			"name": "Marco van 't Klooster",
 			"email": "info@marcovantklooster.nl"
-		}]
+			},
+			{
+			"name": "Johan Bendz",
+			"email": "johan_bendz@hotmail.com"
+			}]
 	},
 	"contributing": {
         "donate": {
